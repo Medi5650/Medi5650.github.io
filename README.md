@@ -1,2 +1,2 @@
-# Medi5650.guthub.io
+# Medi5650.github.io
 BACS 200 - Student Project1
