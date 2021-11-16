@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -9,29 +11,25 @@
 </head>
 
 <body>
-    <div class="container-fluid p-5 bg-success text-white text-center">
-        <a href="index.html" class="text-white">
-            <h1>Trends Online</h1>
-        </a>
-    </div>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Enriques Blog</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Political</a></li>
+                <li><a href="#">Social</a></li>
+                <li><a href="#">Mental Health</a></li>
+            </ul>
+        </div>
+    </nav>
+
     <div class="container">
-        <ul class="nav nav-tabs" role="tablist">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                    Tutorials <span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">JavaScript</a></li>
-                </ul>
-            </li>
-        </ul>
+        <h3>About Me</h3>
+        <p>Enrique Medina Aguiar</p>
     </div>
-
-
 
 </body>
 
